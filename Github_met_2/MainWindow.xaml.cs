@@ -27,7 +27,7 @@ namespace Github_met_2
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            lbl_result.Content = "hello world";
+            lbl_result.Content = "hello world test test :)";
         }
     }
 }
