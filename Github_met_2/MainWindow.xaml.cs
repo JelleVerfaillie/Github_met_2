@@ -24,5 +24,10 @@ namespace Github_met_2
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            lbl_result.Content = "hello world";
+        }
     }
 }
