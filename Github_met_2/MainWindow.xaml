@@ -9,6 +9,8 @@
     <Grid>
         <Label x:Name="lbl_result" Content="" HorizontalAlignment="Left" Margin="338,275,0,0" VerticalAlignment="Top" Width="114" Height="67"/>
         <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Margin="275,169,0,0" VerticalAlignment="Top" Click="btn1_Click"/>
+        <Button x:Name="btnteller" Content="teller" HorizontalAlignment="Left" Margin="512,169,0,0" VerticalAlignment="Top" Height="48" Width="105" Click="btnteller_Click"/>
+        <Label x:Name="lblteller2" Content="" HorizontalAlignment="Left" Margin="512,275,0,0" VerticalAlignment="Top" Height="67" Width="63"/>
 
     </Grid>
 </Window>

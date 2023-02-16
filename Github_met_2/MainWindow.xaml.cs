@@ -20,6 +20,7 @@ namespace Github_met_2
     /// </summary>
     public partial class MainWindow : Window
     {
+        int icount = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +29,13 @@ namespace Github_met_2
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
             lbl_result.Content = "hello world";
+        }
+
+        private void btnteller_Click(object sender, RoutedEventArgs e)
+        {
+
+            icount++;
+            lblteller2.Content = icount.ToString();
         }
     }
 }
